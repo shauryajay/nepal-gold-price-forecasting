@@ -78,13 +78,26 @@ The baseline currently performs best among the evaluated models.
 nepal-gold-price-forecasting/
 │
 ├── data/
+│   └── Dataset files
+│
 ├── notebooks/
+│   └── gold_price_forecasting.ipynb
+│
 ├── docs/
+│   └── experiment-log.md
+│
+├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
 
-## 9. Future Work
+## 9. Project Files
+
+- [View the Jupyter Notebook](notebooks/gold_price_forecasting.ipynb)
+- [View the Experiment Log](docs/experiment-log.md)
+- [View Project Dependencies](requirements.txt)
+
+## 10. Future Work
 
 - Experiment with LSTM neural networks.
 - Explore additional features that may influence gold prices.
@@ -92,7 +105,7 @@ nepal-gold-price-forecasting/
 - Investigate the effect of changing gold price trends.
 - Compare different forecasting approaches.
 
-## 10. Limitations
+## 11. Limitations
 
 This project is exploratory and educational. Its predictions should not be treated as financial advice.
 
