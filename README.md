@@ -65,6 +65,12 @@ The models are evaluated using:
 
 The baseline currently performs best among the evaluated models.
 
+### Actual vs Predicted Gold Prices
+
+The following graph compares actual gold prices with predictions from the baseline and Linear Regression models.
+
+![Actual vs Predicted Gold Prices](images/actual_vs_predicted.png)
+
 ## 7. Key Observations
 
 - More complex models do not necessarily produce more accurate predictions.
