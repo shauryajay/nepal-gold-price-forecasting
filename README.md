@@ -84,13 +84,15 @@ The following graph compares actual gold prices with predictions from the baseli
 nepal-gold-price-forecasting/
 │
 ├── data/
-│   └── Dataset files
-│
-├── notebooks/
-│   └── gold_price_forecasting.ipynb
 │
 ├── docs/
 │   └── experiment-log.md
+│
+├── images/
+│   └── actual_vs_predicted.png
+│
+├── notebooks/
+│   └── gold_price_forecasting.ipynb
 │
 ├── .gitignore
 ├── requirements.txt
