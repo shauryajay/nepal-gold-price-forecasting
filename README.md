@@ -105,6 +105,28 @@ nepal-gold-price-forecasting/
 - [View the Experiment Log](docs/experiment-log.md)
 - [View Project Dependencies](requirements.txt)
 
+## Data Sources and Limitations
+
+### Data Source
+
+The historical gold price dataset was obtained from:
+
+- **Dataset:** [Nepal Market Data](https://github.com/binayabaral/nepal-market-data)
+- **File:** `data/precious-metals/gold-24k.csv`
+- **Original data source:** Federation of Nepal Gold and Silver Dealers' Association (FENEGOSIDA), as documented by the dataset maintainer.
+- **Format:** CSV
+- **Licence:** MIT (dataset repository)
+
+### Data Limitations
+
+- The dataset is an unofficial compilation of published gold prices.
+- The original data source does not guarantee that every observation is error-free.
+- Missing dates may reflect days when prices were not published.
+- The observations are not necessarily equally spaced in calendar time.
+- Historical gold prices alone cannot account for every factor influencing future prices.
+
+The dataset is used for educational and research purposes. Results should be interpreted with these limitations in mind.
+
 ## 10. Future Work
 
 - Experiment with LSTM neural networks.
